@@ -144,6 +144,7 @@
         float: left;
         .brand-logo {
             width: 100%;
+            margin-top: 10px;
             .logo-skip,
             .logo-name {
                 height: auto;
@@ -157,6 +158,22 @@
     .thornton-logo {
         max-width: 60% !important ;
         margin-top: 10px;
+    }
+
+    h2{
+        margin-bottom: 0;
+    }
+
+    footer .footer-skip-logo {
+        width: 250px;
+        margin: 25px auto 0;
+    }
+
+    #accordion{
+        a span {
+            display: inline-block;
+            width: 80%;
+        }
     }
 }
 //1199

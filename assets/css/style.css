@@ -323,49 +323,51 @@ textarea {
   resize: none;
   border-radius: 10px !important; }
 
-.radio-capsule input[type="radio"] {
-  display: none; }
-.radio-capsule input[type="radio"] + label {
-  background-color: #f9eff0;
-  padding: 9px 15px;
-  color: #333;
-  border-radius: 25px;
-  cursor: pointer;
-  border: none;
-  font-size: 14px; }
-  .radio-capsule input[type="radio"] + label span.labeltext::before {
-    content: "";
-    margin-top: 0px;
-    margin-right: 5px;
-    border-radius: 60%;
-    border: 1px solid #333;
-    background-color: #fff;
-    line-height: 22px;
-    height: 14px;
-    display: inline-block;
-    float: left;
-    width: 14px;
-    margin-top: 3px; }
-.radio-capsule input[type="radio"]:checked + label {
-  background-color: #e53c42;
-  padding: 9px 15px;
-  color: #ffffff;
-  border-radius: 25px;
-  cursor: pointer;
-  border: none; }
-  .radio-capsule input[type="radio"]:checked + label span.labeltext::before {
-    content: "";
-    margin-top: 0px;
-    margin-right: 5px;
-    border-radius: 60%;
-    border: 3px solid #fff;
+.radio-capsule {
+  margin-top: 10px; }
+  .radio-capsule input[type="radio"] {
+    display: none; }
+  .radio-capsule input[type="radio"] + label {
+    background-color: #f9eff0;
+    padding: 9px 15px;
+    color: #333;
+    border-radius: 25px;
+    cursor: pointer;
+    border: none;
+    font-size: 14px; }
+    .radio-capsule input[type="radio"] + label span.labeltext::before {
+      content: "";
+      margin-top: 0px;
+      margin-right: 5px;
+      border-radius: 60%;
+      border: 1px solid #333;
+      background-color: #fff;
+      line-height: 22px;
+      height: 14px;
+      display: inline-block;
+      float: left;
+      width: 14px;
+      margin-top: 3px; }
+  .radio-capsule input[type="radio"]:checked + label {
     background-color: #e53c42;
-    line-height: 22px;
-    height: 18px;
-    display: inline-block;
-    float: left;
-    width: 18px;
-    margin-top: 3px; }
+    padding: 9px 15px;
+    color: #ffffff;
+    border-radius: 25px;
+    cursor: pointer;
+    border: none; }
+    .radio-capsule input[type="radio"]:checked + label span.labeltext::before {
+      content: "";
+      margin-top: 0px;
+      margin-right: 5px;
+      border-radius: 60%;
+      border: 3px solid #fff;
+      background-color: #e53c42;
+      line-height: 22px;
+      height: 18px;
+      display: inline-block;
+      float: left;
+      width: 18px;
+      margin-top: 3px; }
 
 footer {
   border-top: 60px solid #e53c42; }
