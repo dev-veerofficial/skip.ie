@@ -1,7 +1,7 @@
 .border {
     border: 1px solid #000;
 }
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (min-width: 280px) and (max-width: 767px) {
     // Global
     h2 {
         font-size: 1.5rem;
@@ -52,22 +52,27 @@
         }
     } // Header Ends Here
 
-    #front-banner {
-        // * {
-        //     border-radius: 0;
-        //     overflow: hidden;
-        // }
-        // max-height: 250px;
-        // overflow: hidden;
+    #front-banner.home {
+        * {
+            border-radius: 0;
+            overflow: hidden;
+        }
+        max-height: 250px;
+        overflow: hidden;
 
         #banner {
-            // max-height: 250px;
-            // border-radius: 0;
-            // img {
-            //     height: 100%;
-            //     width: auto;
-            //     max-width: none;
-            // }
+            max-height: 250px;
+            border-radius: 0;
+            img {
+                height: 100%;
+                width: auto;
+                max-width: none !important;
+            }
+        }
+    }
+
+    #front-banner {
+        #banner {
             .banner-content {
                 border-radius: 0;
                 padding: 0 10px !important;
@@ -133,7 +138,7 @@
     }
 } // Media Query 320-640 Ends Here
 
-@media screen and (min-width:320px) and (max-width: 583px) {
+@media screen and (min-width: 320px) and (max-width: 583px) {
     .brand-logo-container {
         width: 50%;
         float: left;
@@ -149,7 +154,7 @@
             }
         }
     }
-    .thornton-logo{
+    .thornton-logo {
         max-width: 60% !important ;
         margin-top: 10px;
     }
@@ -178,6 +183,7 @@
         label {
             width: 90%;
             margin-top: 1rem;
+            max-width: 300px;
         }
         .coupon.card {
             width: 100%;
@@ -205,7 +211,7 @@
             width: 100%;
             .logo-skip,
             .logo-name {
-                height: auto;;
+                height: auto;
                 img {
                     max-width: 100%;
                 }
@@ -216,13 +222,13 @@
                 padding-right: 0 !important;
             }
             .logo-name {
-                max-width: 48%;                
+                max-width: 48%;
                 float: left !important;
                 margin-left: 10px;
             }
         }
     }
-    .thornton-logo{
+    .thornton-logo {
         max-width: 60% !important ;
         margin-top: 10px;
     }

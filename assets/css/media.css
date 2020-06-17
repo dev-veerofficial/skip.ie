@@ -1,7 +1,7 @@
 .border {
   border: 1px solid #000; }
 
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (min-width: 280px) and (max-width: 767px) {
   h2 {
     font-size: 1.5rem; }
 
@@ -34,6 +34,20 @@
     header .navbar-main a {
       font-size: 14px;
       padding: 6px 20px; }
+
+  #front-banner.home {
+    max-height: 250px;
+    overflow: hidden; }
+    #front-banner.home * {
+      border-radius: 0;
+      overflow: hidden; }
+    #front-banner.home #banner {
+      max-height: 250px;
+      border-radius: 0; }
+      #front-banner.home #banner img {
+        height: 100%;
+        width: auto;
+        max-width: none !important; }
 
   #front-banner #banner .banner-content {
     border-radius: 0;
@@ -112,7 +126,8 @@
 @media screen and (max-width: 735px) {
   .couponbox label {
     width: 90%;
-    margin-top: 1rem; }
+    margin-top: 1rem;
+    max-width: 300px; }
   .couponbox .coupon.card {
     width: 100%; } }
 @media screen and (max-width: 1024px) {
