@@ -4,10 +4,24 @@ body {
   padding: 0;
   width: 100%;
   min-height: 100%;
-  overflow-x: hidden; }
+  overflow-x: hidden;
+  scroll-behavior: smooth; }
 
-z img {
+img {
   max-width: 100% !important; }
+
+.fg-primary {
+  color: #e53c42; }
+
+.rotate {
+  -webkit-transform: rotate(180deg);
+  /* Chrome, Safari, Opera */
+  -moz-transform: rotate(180deg);
+  /* Firefox */
+  -ms-transform: rotate(180deg);
+  /* IE 9 */
+  transform: rotate(180deg);
+  /* Standard syntax */ }
 
 h1,
 h2,
@@ -396,5 +410,15 @@ footer {
       display: inline-block;
       width: 100%;
       cursor: pointer; }
+
+.contactinfo a,
+.contactdetails a {
+  color: #000000; }
+  .contactinfo a:hover,
+  .contactdetails a:hover {
+    color: #e53c42; }
+
+span.skip-price {
+  margin-top: 0.7rem; }
 
 /*# sourceMappingURL=style.css.map */

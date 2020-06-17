@@ -16,12 +16,24 @@ body {
     width: 100%;
     min-height: 100%;
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
-z img {
+img {
     max-width: 100% !important;
 }
 
+.fg-primary {
+    color: $primary-color;
+}
+
 // Components
+
+.rotate {
+    -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
+    -moz-transform: rotate(180deg); /* Firefox */
+    -ms-transform: rotate(180deg); /* IE 9 */
+    transform: rotate(180deg); /* Standard syntax */
+}
 
 h1,
 h2,
@@ -540,11 +552,24 @@ footer {
             background-color: #fff;
             border: 1px solid rgba(0, 0, 0, 0.125);
             border-radius: 5px !important;
-            a{
+            a {
                 display: inline-block;
                 width: 100%;
                 cursor: pointer;
             }
         }
     }
+}
+.contactinfo,
+.contactdetails {
+    a {
+        color: #000000;
+        &:hover {
+            color: $primary-color;
+        }
+    }
+}
+
+span.skip-price {
+    margin-top: 0.7rem;
 }
