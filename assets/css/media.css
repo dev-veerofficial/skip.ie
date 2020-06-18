@@ -78,7 +78,7 @@
     padding-right: 3rem; }
 
   .page-subheading {
-    margin: 40px auto 10px; }
+    margin: 10px auto 20px; }
 
   .form-left-section,
   .form-right-section {
@@ -95,7 +95,10 @@
     .vdinputs select,
     .vdinputs textarea {
       width: 100%;
-      max-width: 100%; } }
+      max-width: 100%; }
+
+  .proceed-cta-box {
+    margin-top: 0rem !important; } }
 @media screen and (min-width: 320px) and (max-width: 583px) {
   .brand-logo-container {
     width: 50%;
@@ -124,7 +127,10 @@
 
   #accordion a span {
     display: inline-block;
-    width: 80%; } }
+    width: 80%; }
+
+  .tab-pane ul {
+    margin-top: 1rem; } }
 @media screen and (max-width: 1199px) {
   .container {
     min-width: 96%;
@@ -137,7 +143,7 @@
     width: 150px; } }
 @media screen and (max-width: 735px) {
   .couponbox label {
-    width: 90%;
+    width: 60%;
     margin-top: 1rem;
     max-width: 300px; }
   .couponbox .coupon.card {
