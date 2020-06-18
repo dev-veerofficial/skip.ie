@@ -130,7 +130,10 @@
     width: 80%; }
 
   .tab-pane ul {
-    margin-top: 1rem; } }
+    margin-top: 1rem; }
+
+  .subheading-box {
+    padding: 0rem 2rem !important; } }
 @media screen and (max-width: 1199px) {
   .container {
     min-width: 96%;
